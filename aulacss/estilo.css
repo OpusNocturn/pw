@@ -3,4 +3,12 @@ background-color: yellow;
 }
 p {
 font-size: 25px;
+text-align: center;
+}
+header {
+    background-color: purple;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
 }

@@ -39,10 +39,7 @@ var soma = a + b;
 console.log(soma);
 */
 
-var ArrayDeCarros = ["ford","camaro","fusca"]
 
-mostraCarros(ArrayDeCarros);
-console.log("Quantidade de objetos na var ArrayDeCarros : "+ArrayDeCarros);
 
 function mostraCarros(recebeArrayDeCarros){
 	var i;
@@ -50,3 +47,7 @@ function mostraCarros(recebeArrayDeCarros){
 		console.log(recebeArrayDeCarros[i]);
 	}
 }
+var ArrayDeCarros = ["ford","camaro","fusca",mostraCarros];
+
+mostraCarros(ArrayDeCarros);
+console.log("Quantidade de objetos na var ArrayDeCarros : "+ArrayDeCarros.length);

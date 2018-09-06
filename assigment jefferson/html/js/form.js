@@ -8,3 +8,7 @@ function ano() {
 		data_nasc.add(opt0, data_nasc.options[0]);
 	}
 }
+
+/* Debugar = Executar o código parte por parte, um por vez.
+Como debugar:
+Aperte F12 -> Vá em Source -> Clique na região onde você quer iniciar -> Execute o código que está em Javascript

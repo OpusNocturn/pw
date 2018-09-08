@@ -1,0 +1,73 @@
+input {
+	background-color: #ccd7ff;
+	border: none;
+}
+
+/*.div1 {
+    background-color: white;
+    width: 300px;
+    border: 3px solid black;
+    padding: 280px;
+    margin: 20px;
+}
+
+.div2 {
+	background-color: white;
+    width: 300px;
+    border: 3px solid black;
+    padding: 280px;
+    margin: 20px;
+	}
+*/	
+
+
+.div1 {
+background: white;
+font-size: 15px;
+padding: 10px;
+margin: 35px; /*parte da esquerda*/
+border: 3px solid black;
+width: 740px; /*Tamanho da caixa*/
+}
+
+.div2 {
+background: white;
+font-size: 15px;
+padding: 10px;
+margin: 35px;
+border: 3px solid black;
+width: 740px;
+}
+
+.div3 {
+background: white;
+font-size: 15px;
+padding: 10px;
+margin: 35px;
+border: 3px solid black;
+width: 740px;
+}
+
+body {
+	font-family: arial;
+}
+
+
+.p1 {
+	background-color: #cccccc;
+	margin: 35px;
+	width: 765px;
+	
+}
+
+.p2 {
+	background-color: #cccccc;
+	margin: 35px;
+	width: 765px;
+}
+
+.p3 {
+	background-color: #cccccc;
+	margin: 35px;
+	width: 765px;
+}

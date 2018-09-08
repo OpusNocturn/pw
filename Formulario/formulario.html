@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trabalho de casa</title>
+<link rel="stylesheet" type="text/css" href="css/styleform.css">
+<script src="js/form.js"></script>
+</head>
+<body>
+			<p><b>Formulário de solicitação de informação (Pessoa Física)</b><p>
+			<div class="p1"><p>As informações a seguir são obrigatórias<p></div>
+	<div class="div1">
+		<form action="">
+			<b>Nome: <input type="text" name="nome" value="" size="92" pattern="[a-z\s+$" required="yes"><br><br>
+			CPF:</b> <input type="text" name= "cpf" value="" size = "35" required="yes"><br>
+			<p>Ou, se preferir, informar outro documento de identificação (RG, CNH, Passaporte, RNE ou outro documento válido. Se a opção for por RG, indicar órgão emissor e UF):</p>
+			<b>Tipo do documento:<input type = "text" name = "nome" value = "" size ="35"> Nº: <input type = "text" name = "nome" value = "" size = "20"><br><br>
+			Endereco eletronico(e-mail):<input type = "text" name = "nome" value = "" size = "70"> ou<br> Endereco fisico (Rua, nº, complemento, Bairro): <input type = "text" name = "nome" value "" size = "99"><br><br>
+			Cidade: <input type = "text" name = "nome" value = "" size = "35"> Estado: <input type = "text" name = "nome" value = "" size = "30"> UF: <input type = "text" name = "nome" value = "" size = "1"><br><br>
+			CEP: <input type = "text" name = "nome" value = "" size = "35"> País: <input type = "text" name = "nome" value = "" size = "35"></b>
+		</form>
+	</div>
+	
+			<div class="p2"><p>Os campos a seguir são opcionais e se preenchidos contribuirão para a melhoria de nossos serviços</p></div>
+	<div class="div2">
+		<form action="">
+			<b>Sexo:</b> Masculino<input type="radio" name="sexo" value="masculino" required="no"> Feminino<input type="radio" name = "sexo" value = "feminino" required="no"> <b>Data de nascimento: <input type = "text" name = "nome" value = "" size = "35" required="no"><br>
+			Escolaridade:</b><br>
+				<input type="radio" name="sexo" value="Sem instrução formal">Sem instrução formal<br>
+				<input type="radio" name="sexo" value="Ensino Fundamental">Ensino Fundamental<br>
+				<input type="radio" name="sexo" value="Ensino Médio">Ensino Médio<br>
+				<input type="radio" name="sexo" value="Ensino Superior">Ensino Superior
+				<input type="radio" name="sexo" value="Especialização">Especialização
+				<input type="radio" name="sexo" value="Mestrado">Mestrado
+				<input type="radio" name="sexo" value="Doutorado">Doutorado<br>
+			<b>Ocupação principal/Profissão:</b><br>
+				<input type="radio" name="sexo" value="Empregado - setor privado">Empregado - setor privado
+				<input type="radio" name="sexo" value="Jornalista">Jornalista
+				<input type="radio" name="sexo" value="Membro de partido político">Membro de partido político
+				<input type="radio" name="sexo" value="Representante de sindicato">Representante de sindicato
+				<input type="radio" name="sexo" value="Profis. Liberal/autônomo">Profis. Liberal/autônomo
+				<input type="radio" name="sexo" value="Outras">Outras
+				<input type="radio" name="sexo" value="Pesquisador">Pesquisador
+				<input type="radio" name="sexo" value="Professor">Professor
+				<input type="radio" name="sexo" value="Estudante">Estudante
+				<input type="radio" name="sexo" value="Empresário/empreendedor">Empresário/empreendedor
+				<input type="radio" name="sexo" value="Servidor público federal">Servidor público federal
+				<input type="radio" name="sexo" value="Servidor público estadual">Servidor público estadual
+				<input type="radio" name="sexo" value="Servidor público municipal">Servidor público municipal
+				<input type="radio" name="sexo" value="Membro de ONG nacional">Membro de ONG nacional
+				<input type="radio" name="sexo" value="Membro de ONG internacional">Membro de ONG internacional<br>
+			<b>Telefone:</b> (<input type = "text" name = "nome" value = "" size = "1" required="no">)<input type = "text" name = "nome" value = "" size = "20" required="no"><br>
+		</form>
+	</div>
+	
+			<div class="p3"><p>Especificação do pedido de acesso à informação<p></div>
+	<div class="div3">
+		<form action="">
+			<b>Órgão/Entidade destinário do pedido:<br>
+			<input type = "text" name = "nome" value = "" size = "100"><br>
+			Forma preferencial de recebimento da resposta</b><br>
+			<input type="radio" name="sexo" value="Buscar/Consultar pessoalmente">Buscar/Consultar pessoalmente
+			<input type="radio" name="sexo" value="E-mail">E-mail
+			<input type="radio" name="sexo" value="Por carta (com custo)">Por carta (com custo)<br>
+			<b>Especificação do pedido:</b>
+			<input type = "text" name = "nome" value = "" size = "100">
+		</form>
+	</div>
+		
+</body>
+</html>
+
+<!--Adicionei [ requiered = "no" ] em "Telefone", "Masculino/Feminino", e "data de nascimento".-->

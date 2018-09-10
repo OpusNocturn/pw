@@ -71,3 +71,17 @@ body {
 	margin: 35px;
 	width: 765px;
 }
+
+.SIC {
+	top: 1px;
+	left: 690px;
+	position: absolute; /*Não sei se isso vai afetar o formulário, mas somente com o "position: absolute" consegui mover as palavras de lugar.*/
+}
+
+.sicmaiusculo {
+	color: red;
+	top: -41px;
+	left: 595px;
+	position: absolute;
+	font-size: 54px;
+}

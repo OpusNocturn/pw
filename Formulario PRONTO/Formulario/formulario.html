@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trabalho de casa</title>
+<link rel="stylesheet" type="text/css" href="css/styleform.css">
+<script src="js/form.js"></script>
+</head>
+<body>
+			<div class="formulario"><p><b>Formulário de solicitação de informação (Pessoa Física)</b><p></div>
+			<div class="SIC"><p><b>Serviço de<br>Informações<br>ao Cidadão</b></p></div>
+			<div class="sicmaiusculo"><p><b>SiC</b></p></div>
+			<div class="p1"><p>As informações a seguir são obrigatórias<p></div>
+			<div id="quadrado"></div>
+	<div class="div1">
+		<form name = "forma1" action="">
+			<b>Nome: <input type="text" name="nome" value="" size="92" pattern="[a-zA-Z\s]+$" required="yes"><br><br>
+			CPF:</b> <input type="text" name= "cpf" value="" size = "35" required="yes"><br>
+			<p>Ou, se preferir, informar outro documento de identificação (RG, CNH, Passaporte, RNE ou outro documento válido. Se a opção for por RG, indicar órgão emissor e UF):</p>
+			<b>Tipo do documento:<input type = "text" name = "documento" value = "" size ="35" required="yes">
+			Nº:  <input type = "text" name = "numero" value = "" size = "20" required="yes"><br><br>
+			Endereco eletronico(e-mail):<input type = "text" name = "email" value = "" size = "70" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> ou
+			<br> Endereco fisico (Rua, nº, complemento, Bairro): <input type = "text" name = "endereco" value "" size = "99" required="yes"><br><br>
+			Cidade: <input type = "text" name = "cidade" value = "" size = "35" required="yes"> 
+			Estado: <input type = "text" name = "estado" value = "" size = "30" required="yes"> 
+			UF: <input type = "text" name = "uf" value = "" size = "1" required="yes" pattern="[a-zA-Z]{2}"><br><br>
+			CEP: <input type = "text" name = "cep" value = "" size = "35" pattern = [0-9]{8} required="yes"> 
+			País: <input type = "text" name = "pais" value = "" size = "35" pattern = [a-zA-Z\s]{25} required="yes"></b>
+		</form>
+	</div>
+	
+			<div class="p2"><p>Os campos a seguir são opcionais e se preenchidos contribuirão para a melhoria de nossos serviços</p></div>
+	<div class="div2">
+		<form name = "forma2" action="">
+			<b>Sexo:</b> Masculino<input type="radio" name="sexo" value="masculino" required="no"> Feminino<input type="radio" name = "sexo" value = "feminino" required="no"> <b>Data de nascimento: <input type ="date" name="data_aniversario" size = "35" required="no" ><br>
+			Escolaridade</b><br>
+				<table style="width:100%">
+					<tr>
+						<td><input type="radio" name="info" value="Sem instrução formal">Sem instrução formal<br></td>
+						<td><input type="radio" name="info" value="Ensino Fundamental">Ensino Fundamental<br></td>
+						<td><input type="radio" name="info" value="Doutorado">Doutorado<br></td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="info" value="Ensino Médio">Ensino Médio<br></td>
+						<td><input type="radio" name="info" value="Ensino Superior">Ensino Superior</td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="info" value="Especialização">Especialização</td>
+						<td><input type="radio" name="info" value="Mestrado">Mestrado</td>
+					</tr>
+				</table>
+			</form>
+			<br><b>Ocupação principal/Profissão</b><br>
+				<table style="width:100%">
+					<tr>
+						<td><input type="radio" name="info" value="Empregado - setor privado">Empregado - setor privado</td>
+						<td><input type="radio" name="info" value="Jornalista">Jornalista</td>
+						<td><input type="radio" name="info" value="Membro de partido político">Membro de partido político</td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="info" value="Representante de sindicato">Representante de sindicato</td>
+						<td><input type="radio" name="info" value="Profis. Liberal/autônomo">Profis. Liberal/autônomo</td>
+						<td><input type="radio" name="info" value="Outras">Outras</td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="info" value="Pesquisador">Pesquisador</td>
+						<td><input type="radio" name="info" value="Professor">Professor</td>
+						<td><input type="radio" name="info" value="Estudante">Estudante</td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="info" value="Empresário/empreendedor">Empresário/empreendedor</td>
+						<td><input type="radio" name="info" value="Servidor público federal">Servidor público federal</td>
+						<td><input type="radio" name="info" value="Servidor público estadual">Servidor público estadual</td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="info" value="Servidor público municipal">Servidor público municipal</td>
+						<td><input type="radio" name="info" value="Membro de ONG nacional">Membro de ONG nacional</td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="info" value="Membro de ONG internacional">Membro de ONG internacional<br></td>
+					</tr>
+				</table>
+			<b>Telefone:</b> (<input type = "text" name = "telefone" value = "" size = "1" required="no" pattern = [0-9]{2}>)<input type = "text" name = "nome" value = "" size = "20" required="no" pattern = [0-9]{9}><br>
+		</form>
+	</div>
+	
+			<div class="p3"><p>Especificação do pedido de acesso à informação<p></div>
+	<div class="div3">
+		<form action="">
+			<b>Órgão/Entidade destinário do pedido:<br>
+			<input type = "text" name = "entidade" value = "" size = "100" required="no" pattern="[a-zA-Z\s]+$"><br>
+			Forma preferencial de recebimento da resposta</b><br>
+			<input type="radio" name="consultar" value="Buscar/Consultar pessoalmente">Buscar/Consultar pessoalmente
+			<input type="radio" name="email2" value="E-mail">E-mail
+			<input type="radio" name="carta" value="Por carta (com custo)">Por carta (com custo)<br>
+			<b>Especificação do pedido:</b><br>
+			<!-- <input type = "text" name = "nome" value = "" size = "100" required="no" pattern="[a-zA-Z\s]+$"> -->
+			<textarea rows="10" cols="101"></textarea>
+			<button type = "button" onclick = "validaformulario()">Envie os dados</button>
+		</form>
+	</div>
+		
+</body>
+</html>
+
+<!--Adicionei [ requiered = "no" ] em "Telefone", "Masculino/Feminino", e "data de nascimento".-->
+
+<!--Muito provavelmente será necessário modificar o [required ="yes"] em certos locais, como na parte de nformar outro documento de identificação.-->

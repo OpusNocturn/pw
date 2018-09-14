@@ -1,0 +1,107 @@
+input {
+	background-color: #ccd7ff;
+	border: none;
+}
+
+#quadrado{
+	height: 13px;
+	width: 765px;
+	margin: 35px;
+	background-color: #cccccc;
+}
+
+.div1 {
+background: white;
+font-size: 15px;
+padding: 10px;
+margin: 35px; /*parte da esquerda*/
+border: 3px solid black;
+width: 740px; /*Tamanho da caixa*/
+}
+
+.div2 {
+background: white;
+font-size: 15px;
+padding: 10px;
+margin: 35px;
+border: 3px solid black;
+width: 740px;
+}
+
+.div3 {
+background: white;
+font-size: 15px;
+padding: 10px;
+margin: 35px;
+border: 3px solid black;
+width: 740px;
+}
+
+body {
+	font-family: arial;
+}
+
+
+.p1 {
+	background-color: #cccccc;
+	margin: 35px;
+	width: 765px;
+	top: 78px;
+	position: relative; /*Quando colocava em absolute, o retangulo só aumentava. Com relative, posso mover o retangulo sem ele crescer.*/
+	
+}
+
+.p2 {
+	background-color: #cccccc;
+	margin: 35px;
+	width: 765px;
+}
+
+.p3 {
+	background-color: #cccccc;
+	margin: 35px;
+	width: 765px;
+}
+
+.SIC {
+	top: 1px;
+	left: 690px;
+	position: absolute; /*Não sei se isso vai afetar o formulário, mas somente com o "position: absolute" consegui mover as palavras de lugar.*/
+}
+
+.sicmaiusculo {
+	color: red;
+	top: -41px;
+	left: 595px;
+	position: absolute;
+	font-size: 54px;
+}
+
+.formulario {
+	top: 30px;
+	left: 42px;
+	position: absolute;
+}
+
+textarea {
+	resize: none; /*Impede que modifiquemos o tamanho da caixa de testo.*/
+	background-color: #ccd7ff;
+	border: none;
+}
+
+/*.div1 {
+    background-color: white;
+    width: 300px;
+    border: 3px solid black;
+    padding: 280px;
+    margin: 20px;
+}
+
+.div2 {
+	background-color: white;
+    width: 300px;
+    border: 3px solid black;
+    padding: 280px;
+    margin: 20px;
+	}
+*/	

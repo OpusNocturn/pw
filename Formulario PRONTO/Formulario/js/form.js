@@ -1,3 +1,4 @@
+
 function validaformulario() {
 			
 		var nome = document.forms["forma1"]["nome"].value;
@@ -38,5 +39,23 @@ function validaformulario() {
 			alert("O campo 'PAÍS' não pode ficar em branco.")
 		}
 		
+		var cpf = document.forms ["forma1"]["cpf"].value;
+		if (cpf == ""){
+			alert("O campo 'CPF' não pode ficar em branco.")
+		}
+		
+		if(cpf.length != 11){
+			alert("CPF inválido.")
+			forma1.cpf.focus();
+			return false;
+		}
+		
+	
+		
+		
 		
 }
+		
+//////////////////
+		
+	

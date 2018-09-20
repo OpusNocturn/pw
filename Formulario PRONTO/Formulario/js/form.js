@@ -7,6 +7,8 @@ function validaformulario() {
 		}
 	
 		
+	
+		
 		var cidade = document.forms["forma1"]["cidade"].value;
 		if(cidade == "") {
 			alert("O campo 'Cidade' não pode ficar em branco.");
@@ -39,7 +41,9 @@ function validaformulario() {
 			alert("O campo 'PAÍS' não pode ficar em branco.")
 		}
 		
-		var cpf = document.forms ["forma1"]["cpf"].value;
+		
+		
+	var cpf = document.forms ["forma1"]["cpf"].value;
 		if (cpf == ""){
 			alert("O campo 'CPF' não pode ficar em branco.")
 		}
@@ -49,8 +53,6 @@ function validaformulario() {
 			forma1.cpf.focus();
 			return false;
 		}
-		
-	
 		
 		
 		
